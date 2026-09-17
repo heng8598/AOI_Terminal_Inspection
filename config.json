@@ -1,0 +1,103 @@
+{
+    "camera_index": 0,
+    "camera_flip": 0,
+    "auto_exposure": 1,
+    "auto_white_balance": 0,
+    "exposure": 300,
+    "brightness": 0,
+    "saturation": 20,
+    "contrast": 32,
+    "gamma": 100,
+    "white_balance_temperature": 6000,
+    "ground_roi": {
+        "x": 187,
+        "y": 8,
+        "w": 296,
+        "h": 208
+    },
+    "live_roi": {
+        "x": 42,
+        "y": 236,
+        "w": 284,
+        "h": 231
+    },
+    "neutral_roi": {
+        "x": 324,
+        "y": 235,
+        "w": 279,
+        "h": 228
+    },
+    "comm_mode": {
+        "manual": 0,
+        "auto": 0,
+        "uart": 1,
+        "modbus_tcp": 0
+    },
+    "uart": {
+        "baudrate": 115200,
+        "com_port": "/dev/ttyUSB0"
+    },
+    "modbus_tcp": {
+        "ip_address": "192.168.1.10",
+        "port": 502,
+        "subnet_mask": "255.255.255.0",
+        "slave_id": 1,
+        "link_mode": 1,
+        "timer": 12,
+        "inspection_start": 100,
+        "product_leave": 300
+    },
+    "debug": {
+        "live view": false,
+        "Level Line": false,
+        "binary": false,
+        "contour": false,
+        "roi": false,
+        "roi_image": false,
+        "find_pin": false,
+        "image_health": false,
+        "subpixel_image": false,
+        "result": false
+    },
+    "ground_parameter": {
+        "width_min": 3.8,
+        "width_max": 4.6,
+        "angle_min": -5.0,
+        "angle_max": 5.0,
+        "scan_height": 0.25,
+        "pin_thickness": 0.34,
+        "largest_area": 2000,
+        "smaller_area": 200,
+        "min_area": 100
+    },
+    "live_parameter": {
+        "width_min": 4.8,
+        "width_max": 5.6,
+        "angle_min": -5.0,
+        "angle_max": 5.0,
+        "scan_height": 0.38,
+        "pin_thickness": 0.7,
+        "largest_area": 2000,
+        "smaller_area": 200,
+        "min_area": 200
+    },
+    "neutral_parameter": {
+        "width_min": 4.8,
+        "width_max": 5.6,
+        "angle_min": -5.0,
+        "angle_max": 5.0,
+        "scan_height": 0.38,
+        "pin_thickness": 0.7,
+        "largest_area": 2000,
+        "smaller_area": 200,
+        "min_area": 200
+    },
+    "calibration": {
+        "width_mm": 3.84,
+        "width_pixel": 91.3195
+    },
+    "image_tunning": {
+        "gaussian_x": 19,
+        "gaussian_y": 21
+    }
+}

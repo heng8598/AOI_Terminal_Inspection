@@ -154,49 +154,49 @@ def prosess_inspection(frame):
         # terminal["angle_terminal"] = angle_terminal
         
 
-        if name == "ground":
+        # if name == "ground":
 
-            angle_value = angle_terminal.get("raw_angle")
-            width_value = widht_terminal.get("width_mm")
+        #     angle_value = angle_terminal.get("raw_angle")
+        #     width_value = widht_terminal.get("width_mm")
 
-            ground_angle_list.append(angle_value)
-            ground_width_list.append(width_value)
+        #     ground_angle_list.append(angle_value)
+        #     ground_width_list.append(width_value)
 
-            count = len(ground_angle_list)
+        #     count = len(ground_angle_list)
 
-            if count in [100, 500, 1000, 1500, 2000,5000,100000,150000]:
+        #     if count in [100, 500, 1000, 1500, 2000,5000,100000,150000]:
 
-                calculate_width_cpk(ground_width_list,name,4.19)
-                calculate_angle_cpk(ground_angle_list,name,0)
+        #         calculate_width_cpk(ground_width_list,name,4.19)
+        #         calculate_angle_cpk(ground_angle_list,name,0)
 
-        if name == "live":
+        # if name == "live":
         
-            angle_value = angle_terminal.get("raw_angle")
-            width_value = widht_terminal.get("width_mm")
+        #     angle_value = angle_terminal.get("raw_angle")
+        #     width_value = widht_terminal.get("width_mm")
 
-            live_angle_list.append(angle_value)
-            live_width_list.append(width_value)
+        #     live_angle_list.append(angle_value)
+        #     live_width_list.append(width_value)
 
-            count = len(live_angle_list)
+        #     count = len(live_angle_list)
 
-            if count in [100, 500, 1000, 1500, 2000,5000,100000,150000]:
+        #     if count in [100, 500, 1000, 1500, 2000,5000,100000,150000]:
 
-                calculate_width_cpk(live_width_list,name,5.27)
-                calculate_angle_cpk(live_angle_list,name,1.10)        
-        if name == "neutral":
+        #         calculate_width_cpk(live_width_list,name,5.27)
+        #         calculate_angle_cpk(live_angle_list,name,1.10)        
+        # if name == "neutral":
         
-            angle_value = angle_terminal.get("raw_angle")
-            width_value = widht_terminal.get("width_mm")
+        #     angle_value = angle_terminal.get("raw_angle")
+        #     width_value = widht_terminal.get("width_mm")
 
-            neutral_angle_list.append(angle_value)
-            neutral_width_list.append(width_value)
+        #     neutral_angle_list.append(angle_value)
+        #     neutral_width_list.append(width_value)
 
-            count = len(neutral_angle_list)
+        #     count = len(neutral_angle_list)
 
-            if count in [100, 500, 1000, 1500, 2000,5000,100000,150000]:
+        #     if count in [100, 500, 1000, 1500, 2000,5000,100000,150000]:
 
-                calculate_width_cpk(neutral_width_list,name,5.28)
-                calculate_angle_cpk(neutral_angle_list,name,0)        
+        #         calculate_width_cpk(neutral_width_list,name,5.28)
+        #         calculate_angle_cpk(neutral_angle_list,name,0)        
     
 
     statuses = []

@@ -1,4 +1,4 @@
-# AOI Terminal Inspection System
+> keywords: AOI Terminal Inspection System
 
 A terminal inspection project using **OpenCV**, **PySide6**, and
 **Modbus TCP / UART**.
